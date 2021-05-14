@@ -12,7 +12,7 @@ function Footer() {
                         <path d="M0 292H1920V187.856C1920 187.856 1736.5 -234.821 0 187.856V292Z" fill="#FF6915"/>
                     </svg>
                 </div>
-                <div className="lg:max-w-4xl lg:mx-auto mx-2 relative text-white bottom-16">
+                <div className="lg:max-w-4xl relative lg:mx-auto mx-2 relative text-white bottom-16">
                     <div className="absolute justify-between items-end flex w-full ">
                         <div>Logo</div>
                         <div className="lg:flex text-right">

@@ -5,7 +5,7 @@ import Footer from './Footer'
 
 function Landingpage() {
     return (
-        <div>
+        <div className="landingpage">
             <HeroSection />
             <Icons />
             <Steps />

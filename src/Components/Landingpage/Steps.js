@@ -698,10 +698,7 @@ function Steps() {
                                 y2="45.0968"
                                 gradientUnits="userSpaceOnUse"
                             >
-                                <stop
-                                    stopColor="#808080"
-                                    stopOpacity="0.25"
-                                />
+                                <stop stopColor="#808080" stopOpacity="0.25" />
                                 <stop
                                     offset="0.54"
                                     stopColor="#808080"

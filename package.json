@@ -20,7 +20,8 @@
         "test": "craco test",
         "eject": "react-scripts eject",
         "lint": "eslint --fix --ext .js,.jsx .",
-        "format": "npx prettier --write ."
+        "format": "npx prettier --write .",
+        "check": "npm run format && npm run lint"
     },
     "eslintConfig": {
         "extends": [

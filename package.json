@@ -33,9 +33,6 @@
             "npm run format:fix",
             "npm run lint:fix",
             "npm run test:ci"
-        ],
-        "*.*": [
-            "npm run format:fix"
         ]
     },
     "eslintConfig": {

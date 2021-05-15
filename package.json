@@ -19,9 +19,11 @@
         "build": "craco build",
         "test": "craco test",
         "eject": "react-scripts eject",
-        "lint": "eslint --fix --ext .js,.jsx .",
-        "format": "npx prettier --write .",
-        "check": "npm run format && npm run lint"
+        "lint": "eslint --ext .js,.jsx .",
+        "lint:fix": "eslint --fix --ext .js,.jsx .",
+        "format": "npx prettier .",
+        "format:fix": "npx prettier --write .",
+        "check": "npm run format:fix && npm run lint:fix"
     },
     "lint-staged": {
         "src/**/*.{js,css,html}": [

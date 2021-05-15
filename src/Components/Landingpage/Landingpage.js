@@ -8,10 +8,6 @@ function Landingpage() {
         <div>
             <HeroSection />
             <Icons />
-          tesdrrt
-
-
-
             <Steps />
             <Footer />
         </div>

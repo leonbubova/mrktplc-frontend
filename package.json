@@ -21,7 +21,7 @@
         "eject": "react-scripts eject",
         "lint": "eslint --ext .js,.jsx .",
         "lint:fix": "eslint --fix --ext .js,.jsx .",
-        "format": "npx prettier .",
+        "format": "npx prettier --check .",
         "format:fix": "npx prettier --write .",
         "check": "npm run format:fix && npm run lint:fix"
     },

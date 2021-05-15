@@ -9,6 +9,9 @@ function Landingpage() {
             <HeroSection />
             <Icons />
           test
+
+
+
             <Steps />
             <Footer />
         </div>

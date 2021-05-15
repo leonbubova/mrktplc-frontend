@@ -9,6 +9,6 @@ describe('App Component Test Suite', () => {
     it('should render the App component', () => {
         const wrapper = shallow(<Landingpage />)
 
-        expect(wrapper.exists('.landingpage')).toBe(true)
+        expect(wrapper.exists('.landingpage')).toBe(false)
     })
 })

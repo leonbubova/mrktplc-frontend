@@ -17,23 +17,21 @@
     "scripts": {
         "start": "craco start",
         "build": "craco build",
-        "test": "jest test",
         "eject": "react-scripts eject",
+        "test": "react-scripts test",
+        "test:coverage": "npm run test -- --coverage --watchAll=false",
+        "test:ci": "cross-env CI=true react-scripts test --env=jsdom --passWithNoTests",
         "lint": "eslint --ext .js,.jsx .",
         "lint:fix": "eslint --fix --ext .js,.jsx .",
         "format": "npx prettier --check .",
         "format:fix": "npx prettier --write .",
         "fix": "npm run format:fix && npm run lint:fix",
-        "test:ci": "cross-env CI=true react-scripts test --env=jsdom --passWithNoTests",
         "prepare": "husky install"
     },
     "lint-staged": {
-        "*.{js}": [
-            "npm run lint:fix",
-            "npm run test:ci"
-        ],
-        "*.{js,html,css,md,yml,json}": [
-            "npm run format:fix"
+        "src/**/*.{js,jsx}": [
+            "npm run format:fix",
+            "npm run lint:fix"
         ]
     },
     "eslintConfig": {

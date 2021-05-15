@@ -30,3 +30,6 @@ jobs:
 
             # static code analysis with eslint
             - run: npm run lint
+
+            # run tests
+            - run: npm run test:ci

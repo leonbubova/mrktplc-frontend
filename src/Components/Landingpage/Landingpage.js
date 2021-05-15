@@ -7,7 +7,7 @@ function Landingpage() {
     return (
         <div className="landingpage">
             <HeroSection />
-            <div>test</div>
+            <div>tefddsst</div>
             <Icons />
             <Steps />
             <Footer />

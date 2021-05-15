@@ -29,7 +29,7 @@
         "prepare": "husky install"
     },
     "lint-staged": {
-        "*.{js}": [
+        "src/**/*.{js,jsx}": [
             "npm run format:fix",
             "npm run lint:fix",
             "npm run test:ci"

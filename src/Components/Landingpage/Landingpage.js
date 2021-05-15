@@ -7,7 +7,6 @@ function Landingpage() {
     return (
         <div>
             <HeroSection />
-            {/* add comment */}
             <Icons />
             <Steps />
             <Footer />

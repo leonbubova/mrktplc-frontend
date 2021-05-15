@@ -28,13 +28,11 @@
         "prepare": "husky install"
     },
     "lint-staged": {
-        "src/**/*.{js,css,html,yml}": [
+        "*.{js,css,html,yml,md}": [
             "npm run format:fix",
             "npm run lint:fix",
             "npm run test:ci"
-        ],
-        "*.{js,jsx}": "eslint --cache --fix",
-        "*.{js,css,md}": "prettier --write"
+        ]
     },
     "eslintConfig": {
         "extends": [

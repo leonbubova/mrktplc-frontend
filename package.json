@@ -24,12 +24,15 @@
         "format": "npx prettier --check .",
         "format:fix": "npx prettier --write .",
         "fix": "npm run format:fix && npm run lint:fix",
-        "test:related": "jest --bail --findRelatedTests"
+        "test:related": "jest --bail --findRelatedTests",
+        "prepare": "husky install"
     },
     "lint-staged": {
         "src/**/*.{js,css,html}": [
             "npm run format && npm run lint"
-        ]
+        ],
+        "*.{js,jsx}": "eslint --cache --fix",
+        "*.{js,css,md}": "prettier --write"
     },
     "eslintConfig": {
         "extends": [

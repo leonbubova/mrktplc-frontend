@@ -31,12 +31,6 @@
             "npm run format && npm run lint"
         ]
     },
-    "husky": {
-        "hooks": {
-            "pre-commit": "lint-staged",
-            "pre-push": "npm test"
-        }
-    },
     "eslintConfig": {
         "extends": [
             "react-app",

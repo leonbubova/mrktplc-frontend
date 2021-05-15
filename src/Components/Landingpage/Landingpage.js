@@ -8,7 +8,6 @@ function Landingpage() {
         <div>
             <HeroSection />
             <Icons />
-            {/* test */}
             <Steps />
             <Footer />
         </div>

@@ -30,11 +30,11 @@
     },
     "lint-staged": {
         "*.{js}": [
+            "npm run format:fix",
             "npm run lint:fix",
-            "npm run test:ci",
-            "npm run format:fix"
+            "npm run test:ci"
         ],
-        "*.{html,css,md,yml,json}": [
+        "*.*": [
             "npm run format:fix"
         ]
     },

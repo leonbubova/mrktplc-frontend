@@ -23,6 +23,16 @@
         "format": "npx prettier --write .",
         "check": "npm run format && npm run lint"
     },
+    "lint-staged": {
+        "src/**/*.{js,css,html}": [
+            "npm run format && npm run lint"
+        ]
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
     "eslintConfig": {
         "extends": [
             "react-app",
@@ -50,6 +60,8 @@
         "eslint-plugin-jsx-a11y": "^6.4.1",
         "eslint-plugin-react": "^7.23.2",
         "eslint-plugin-react-hooks": "^4.2.0",
+        "husky": "^6.0.0",
+        "lint-staged": "^11.0.0",
         "postcss": "^7.0.35",
         "prettier": "2.3.0",
         "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.0"

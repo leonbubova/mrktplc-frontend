@@ -24,7 +24,7 @@
         "format": "npx prettier --check .",
         "format:fix": "npx prettier --write .",
         "fix": "npm run format:fix && npm run lint:fix",
-        "test:ci": "cross-env CI=true react-scripts test --env=jsdom",
+        "test:ci": "cross-env CI=true react-scripts test --env=jsdom --passWithNoTests",
         "prepare": "husky install"
     },
     "lint-staged": {

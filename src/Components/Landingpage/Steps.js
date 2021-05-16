@@ -3,19 +3,19 @@ function Steps() {
         <div>
             <div className="lg:max-w-4xl mx-2 mt-16 lg:mt-32 lg:flex lg:mx-auto">
                 <div className="lg:w-1/2">
-                    <div className="flex text-yellow-600 lg:mb-8 mb-4 font-medium">
-                        <h2 className="text-lg lg:text-3xl lg:font-normal">
+                    <div className="flex text-yellow-600 lg:mb-6 mb-4 font-medium">
+                        <h2 className="text-lg lg:text-2xl lg:font-normal">
                             Registriere dich bei Eveeon
                         </h2>
                         <div
                             style={{ width: '30px' }}
-                            className="border lg:hidden block border-yellow-600 ml-2 lg:ml-4 rounded-full text-center text-lg lg:text-3xl"
+                            className="border lg:hidden block border-yellow-600 ml-2 lg:ml-4 rounded-full text-center text-lg lg:text-2xl"
                         >
                             1
                         </div>
                         <div
                             style={{ width: '38px' }}
-                            className="border-2 lg:block hidden border-yellow-600 ml-2 lg:ml-4 rounded-full text-center text-lg lg:text-3xl"
+                            className="border-2 lg:block hidden border-yellow-600 ml-2 lg:ml-4 rounded-full text-center text-lg lg:text-2xl"
                         >
                             1
                         </div>
@@ -716,20 +716,20 @@ function Steps() {
             </div>
             <div className="lg:max-w-4xl mx-2 mt-16 lg:mt-32 lg:flex lg:mx-auto">
                 <div className="lg:w-1/2">
-                    <div className="flex text-yellow-600 lg:mb-8 mb-4 font-medium">
+                    <div className="flex text-yellow-600 lg:mb-6 mb-4 font-medium">
                         <div
                             style={{ width: '30px' }}
-                            className="border lg:hidden block border-yellow-600 mr-2 lg:mr-4 rounded-full text-center text-lg lg:text-3xl"
+                            className="border lg:hidden block border-yellow-600 mr-2 lg:mr-4 rounded-full text-center text-lg lg:text-2xl"
                         >
                             2
                         </div>
                         <div
                             style={{ width: '38px' }}
-                            className="border-2 lg:block hidden border-yellow-600 mr-2 lg:mr-4 rounded-full text-center text-lg lg:text-3xl"
+                            className="border-2 lg:block hidden border-yellow-600 mr-2 lg:mr-4 rounded-full text-center text-lg lg:text-2xl"
                         >
                             2
                         </div>
-                        <h2 className="text-lg lg:text-3xl lg:font-normal">
+                        <h2 className="text-lg lg:text-2xl lg:font-normal">
                             Erhalte tolle Aufträge
                         </h2>
                     </div>
@@ -850,21 +850,21 @@ function Steps() {
                     </svg>
                 </div>
             </div>
-            <div className="lg:max-w-4xl mx-2 mt-16 lg:mt-32 lg:mb-52 relative lg:flex lg:flex-row-reverse lg:mx-auto">
+            <div className="lg:max-w-4xl mx-2 mt-16 lg:mt-32 lg:mb-48 relative lg:flex lg:flex-row-reverse lg:mx-auto">
                 <div className="lg:w-1/2">
-                    <div className="flex text-yellow-600 lg:mb-8 mb-4 font-medium">
-                        <h2 className="text-lg lg:text-3xl lg:font-normal">
+                    <div className="flex text-yellow-600 lg:mb-6 mb-4 font-medium">
+                        <h2 className="text-lg lg:text-2xl lg:font-normal">
                             Bestelle das Produkt
                         </h2>
                         <div
                             style={{ width: '30px' }}
-                            className="border lg:hidden block border-yellow-600 ml-2 lg:ml-4 rounded-full text-center text-lg lg:text-3xl"
+                            className="border lg:hidden block border-yellow-600 ml-2 lg:ml-4 rounded-full text-center text-lg lg:text-2xl"
                         >
                             3
                         </div>
                         <div
                             style={{ width: '38px' }}
-                            className="border-2 lg:block hidden border-yellow-600 ml-2 lg:ml-4 rounded-full text-center text-lg lg:text-3xl"
+                            className="border-2 lg:block hidden border-yellow-600 ml-2 lg:ml-4 rounded-full text-center text-lg lg:text-2xl"
                         >
                             3
                         </div>
@@ -889,7 +889,7 @@ function Steps() {
                 </div>
                 <div
                     style={{ zIndex: '-999' }}
-                    className="lg:w-7/12 lg:left-0 lg:top-5 lg:absolute"
+                    className="lg:w-6/12 lg:left-0 lg:top-5 lg:absolute"
                 >
                     <svg
                         viewBox="0 0 473 350"
@@ -1194,20 +1194,20 @@ function Steps() {
             </div>
             <div className="lg:max-w-4xl mx-2 mt-16 lg:mt-32 lg:flex lg:items-end lg:mx-auto">
                 <div className="lg:w-1/2">
-                    <div className="flex text-yellow-600 lg:mb-8 mb-4 font-medium">
+                    <div className="flex text-yellow-600 lg:mb-6 mb-4 font-medium">
                         <div
                             style={{ width: '30px' }}
-                            className="border lg:hidden block border-yellow-600 mr-2 lg:mr-4 rounded-full text-center text-lg lg:text-3xl"
+                            className="border lg:hidden block border-yellow-600 mr-2 lg:mr-4 rounded-full text-center text-lg lg:text-2xl"
                         >
                             4
                         </div>
                         <div
                             style={{ width: '38px' }}
-                            className="border-2 lg:block hidden border-yellow-600 mr-2 lg:mr-4 rounded-full text-center text-lg lg:text-3xl"
+                            className="border-2 lg:block hidden border-yellow-600 mr-2 lg:mr-4 rounded-full text-center text-lg lg:text-2xl"
                         >
                             4
                         </div>
-                        <h2 className="text-lg lg:text-3xl lg:font-normal">
+                        <h2 className="text-lg lg:text-2xl lg:font-normal">
                             Teste das Produkt
                         </h2>
                     </div>
@@ -1229,7 +1229,7 @@ function Steps() {
                 </div>
                 <div className="lg:w-5/12 flex justify-around transform lg:translate-x-16">
                     <svg
-                        className="w-3/4 lg:w-full"
+                        className="w-3/4 lg:w-80"
                         viewBox="0 0 418 448"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -1314,7 +1314,7 @@ function Steps() {
                     </svg>
                 </div>
             </div>
-            <div className="lg:max-w-4xl mx-2 mt-16 lg:mt-32 lg:mb-52 lg:flex lg:flex-row-reverse lg:mx-auto">
+            <div className="lg:max-w-4xl mx-2 mt-16 lg:mt-32 lg:mb-44 lg:flex lg:flex-row-reverse lg:mx-auto">
                 <div className="lg:w-1/2">
                     <div className="flex text-yellow-600 lg:mb-6 mb-4 font-medium">
                         <h2 className="text-lg lg:text-2xl lg:font-normal">
@@ -1349,7 +1349,7 @@ function Steps() {
                             Link zu dieser schicken, hier erfährst du wie.
                         </p>
                     </div>
-                    <div className="w-7/12 hidden lg:block transform translate-y-10">
+                    <div className="w-6/12 hidden lg:block transform translate-y-10">
                         <svg
                             viewBox="0 0 247 308"
                             fill="none"
@@ -1682,20 +1682,20 @@ function Steps() {
             <div className="lg:max-w-4xl mx-2 mt-16 lg:mt-32 lg:mx-auto">
                 <div className="lg:flex">
                     <div className="lg:w-1/2">
-                        <div className="flex text-yellow-600 lg:mb-8 mb-4 font-medium">
+                        <div className="flex text-yellow-600 lg:mb-6 mb-4 font-medium">
                             <div
                                 style={{ width: '30px' }}
-                                className="border lg:hidden block border-yellow-600 mr-2 lg:mr-4 rounded-full text-center text-lg lg:text-3xl"
+                                className="border lg:hidden block border-yellow-600 mr-2 lg:mr-4 rounded-full text-center text-lg lg:text-2xl"
                             >
                                 6
                             </div>
                             <div
                                 style={{ width: '38px' }}
-                                className="border-2 lg:block hidden border-yellow-600 mr-2 lg:mr-4 rounded-full text-center text-lg lg:text-3xl"
+                                className="border-2 lg:block hidden border-yellow-600 mr-2 lg:mr-4 rounded-full text-center text-lg lg:text-2xl"
                             >
                                 6
                             </div>
-                            <h2 className="text-lg lg:text-3xl lg:font-normal">
+                            <h2 className="text-lg lg:text-2xl lg:font-normal">
                                 Erhalte deine Vergütung
                             </h2>
                         </div>

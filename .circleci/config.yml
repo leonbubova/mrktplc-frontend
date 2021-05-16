@@ -39,3 +39,7 @@ workflows:
     build-format-lint:
         jobs:
             - run
+                filters:
+                    branches:
+                        only:
+                            - dev

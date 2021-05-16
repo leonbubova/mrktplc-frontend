@@ -3,7 +3,7 @@ function Steps() {
         <div>
             <div className="lg:max-w-4xl mx-2 mt-16 lg:mt-32 lg:flex lg:mx-auto">
                 <div className="lg:w-1/2">
-                    <div className="flex text-yellow-600 lg:mb-6 mb-4 font-medium">
+                    <div className="flex text-yellow-600 items-center lg:mb-6 mb-4 font-medium">
                         <h2 className="text-lg lg:text-2xl lg:font-normal">
                             Registriere dich bei Eveeon
                         </h2>
@@ -13,10 +13,7 @@ function Steps() {
                         >
                             1
                         </div>
-                        <div
-                            style={{ width: '38px' }}
-                            className="border-2 lg:block hidden border-yellow-600 ml-2 lg:ml-4 rounded-full text-center text-lg lg:text-2xl"
-                        >
+                        <div className="border-2 lg:block hidden border-yellow-600 px-2.5 pt-0 pb-0 ml-2 lg:ml-4 rounded-full text-center text-lg lg:text-2xl">
                             1
                         </div>
                     </div>
@@ -26,17 +23,17 @@ function Steps() {
                             als Produkttester registrieren zu können.
                         </p>
                         <p className="text-justify mb-2">
-                            Dazu gehören ein Screenshot und der Link von deinem
-                            Amazon Profil, wo genau du das findest, siehst du in
-                            unserer
+                            Dazu gehört ein Screenshot sowie der Link von deinem
+                            Amazon Profil. Wo genau du beides findest, zeigen
+                            wir dir in unserer Anleitung.
                         </p>
                         <p className="text-justify mb-2">
                             Damit wir dir deine Vergütung überweisen können
                             brauchen wir ganz einfach nur deine PayPal E-Mail.
                         </p>
                         <p className="text-justify mb-2">
-                            Hast du die nötigen Daten angegeben bist du
-                            Erfolgreich registriert!
+                            Hast du die benötigten Daten angegeben bist du
+                            erfolgreich als Produkttester registriert!
                         </p>
                     </div>
                 </div>
@@ -716,17 +713,14 @@ function Steps() {
             </div>
             <div className="lg:max-w-4xl mx-2 mt-16 lg:mt-32 lg:flex lg:mx-auto">
                 <div className="lg:w-1/2">
-                    <div className="flex text-yellow-600 lg:mb-6 mb-4 font-medium">
+                    <div className="flex text-yellow-600 lg:mb-6 items-center mb-4 font-medium">
                         <div
                             style={{ width: '30px' }}
                             className="border lg:hidden block border-yellow-600 mr-2 lg:mr-4 rounded-full text-center text-lg lg:text-2xl"
                         >
                             2
                         </div>
-                        <div
-                            style={{ width: '38px' }}
-                            className="border-2 lg:block hidden border-yellow-600 mr-2 lg:mr-4 rounded-full text-center text-lg lg:text-2xl"
-                        >
+                        <div className="border-2 lg:block hidden border-yellow-600 mr-2 px-2.5 pt-0 pb-0 lg:mr-4 rounded-full text-center text-lg lg:text-2xl">
                             2
                         </div>
                         <h2 className="text-lg lg:text-2xl lg:font-normal">
@@ -735,16 +729,16 @@ function Steps() {
                     </div>
                     <div>
                         <p className="text-justify mb-2">
-                            Behalte ab jetzt dein Postfach im Auge, wir senden
+                            Behalte ab jetzt dein Postfach im Auge. Wir senden
                             dir nach deiner Registrierung stetig neue tolle
-                            Angebote zu Produkttests.
+                            Angebote für Produkttestests zu.
                         </p>
                         <p className="text-justify mb-2">
                             Hast du dich für ein Angebot entschieden? Super!
                         </p>
                         <p className="text-justify mb-2">
-                            Antworte einfach auf das Angebot welches dir Gefällt
-                            und warte auf die Zusage für den Produkttest.
+                            Antworte einfach auf das Angebot welches dir gefällt
+                            und warte auf unsere Zusage für den Produkttest.
                         </p>
                     </div>
                 </div>
@@ -852,33 +846,28 @@ function Steps() {
             </div>
             <div className="lg:max-w-4xl mx-2 mt-16 lg:mt-32 lg:mb-48 relative lg:flex lg:flex-row-reverse lg:mx-auto">
                 <div className="lg:w-1/2">
-                    <div className="flex text-yellow-600 lg:mb-6 mb-4 font-medium">
+                    <div className="flex text-yellow-600 items-center lg:mb-6 mb-4 font-medium">
                         <h2 className="text-lg lg:text-2xl lg:font-normal">
                             Bestelle das Produkt
                         </h2>
-                        <div
-                            style={{ width: '30px' }}
-                            className="border lg:hidden block border-yellow-600 ml-2 lg:ml-4 rounded-full text-center text-lg lg:text-2xl"
-                        >
+                        <div className="border lg:hidden  px-2.5 pt-0 pb-0.5 block border-yellow-600 ml-2 lg:ml-4 rounded-full text-center text-lg lg:text-2xl">
                             3
                         </div>
-                        <div
-                            style={{ width: '38px' }}
-                            className="border-2 lg:block hidden border-yellow-600 ml-2 lg:ml-4 rounded-full text-center text-lg lg:text-2xl"
-                        >
+                        <div className="border-2 lg:block hidden border-yellow-600 px-3 pt-0 pb-1 ml-2 lg:ml-4 rounded-full text-center text-lg lg:text-2xl">
                             3
                         </div>
                     </div>
                     <div>
                         <p className="text-justify mb-2">
-                            Wurdest du für den Produkttest ausgewählt, senden
-                            wir dir einen Link zu dem Produkt auf Amazon zu,
-                            daraufhin bestellst du es zu dir nach Hause.
+                            Hast du unsere Zusage erhalten, senden wir dir
+                            gleich den Produkt-Link für Amazon zu. Danach
+                            bestellst du das Produkt wie gewohnt zu dir nach
+                            Hause.
                         </p>
                         <p className="text-justify mb-2">
-                            Um deine Bestellung verifizieren zu können, brauchen
-                            wir deine Bestellnummer und einen Screenshot deiner
-                            Bestellung, wo du diese findest, zeigen wir dir
+                            Um deine Bestellung verifizieren zu können brauchen
+                            wir deine Bestellnummer, sowie einen Screenshot
+                            deiner Bestellung. Wo du beides findest, siehst du
                             hier.
                         </p>
                         <p className="text-justify mb-2">
@@ -1194,17 +1183,11 @@ function Steps() {
             </div>
             <div className="lg:max-w-4xl mx-2 mt-16 lg:mt-32 lg:flex lg:items-end lg:mx-auto">
                 <div className="lg:w-1/2">
-                    <div className="flex text-yellow-600 lg:mb-6 mb-4 font-medium">
-                        <div
-                            style={{ width: '30px' }}
-                            className="border lg:hidden block border-yellow-600 mr-2 lg:mr-4 rounded-full text-center text-lg lg:text-2xl"
-                        >
+                    <div className="flex text-yellow-600 items-center lg:mb-6 mb-4 font-medium">
+                        <div className="border lg:hidden block px-2.5 pt-0 pb-0.5 border-yellow-600 mr-2 lg:mr-4 rounded-full text-center text-lg lg:text-2xl">
                             4
                         </div>
-                        <div
-                            style={{ width: '38px' }}
-                            className="border-2 lg:block hidden border-yellow-600 mr-2 lg:mr-4 rounded-full text-center text-lg lg:text-2xl"
-                        >
+                        <div className="border-2 lg:block hidden border-yellow-600 pl-2 pr-2.5 -pt-1 pb-0 mr-2 lg:mr-4 rounded-full text-center text-lg lg:text-2xl">
                             4
                         </div>
                         <h2 className="text-lg lg:text-2xl lg:font-normal">
@@ -1213,17 +1196,17 @@ function Steps() {
                     </div>
                     <div>
                         <p className="text-justify mb-2">
-                            Hast du dein Produkt erhalten, prüfst du es auf Herz
-                            und Nieren.
+                            Hast du dein Produkt erhalten, teste es einfach so,
+                            als ob du es regulär gekauft hättest.
                         </p>
                         <p className="text-justify mb-2">
-                            Schaue dir dabei die einzelnen Funktionen deines
-                            Produkts genau an, welche coolen Features hat dein
-                            Produkt?
+                            Schau dir dabei die einzelnen Funktionen deines
+                            Produktes an, welche coolen Features hat dein
+                            Produkt? Was kann es? Was kann es nicht?
                         </p>
                         <p className="text-justify mb-2">
-                            Überlege dir schonmal, was dir Gefällt und was
-                            nicht.
+                            Überlege dir für deine Rezension schonmal, was dir
+                            gut Gefällt und was nicht.
                         </p>
                     </div>
                 </div>
@@ -1316,7 +1299,7 @@ function Steps() {
             </div>
             <div className="lg:max-w-4xl mx-2 mt-16 lg:mt-32 lg:mb-44 lg:flex lg:flex-row-reverse lg:mx-auto">
                 <div className="lg:w-1/2">
-                    <div className="flex text-yellow-600 lg:mb-6 mb-4 font-medium">
+                    <div className="flex text-yellow-600 items-center lg:mb-6 mb-4 font-medium">
                         <h2 className="text-lg lg:text-2xl lg:font-normal">
                             Teile deine Meinung
                         </h2>
@@ -1326,27 +1309,24 @@ function Steps() {
                         >
                             5
                         </div>
-                        <div
-                            style={{ width: '38px' }}
-                            className="border-2 lg:block hidden border-yellow-600 ml-2 lg:ml-4 rounded-full text-center text-lg lg:text-2xl"
-                        >
+                        <div className="border-2 lg:block hidden px-2.5 pt-0 pb-0.5 border-yellow-600 ml-2 lg:ml-4 rounded-full text-center text-lg lg:text-2xl">
                             5
                         </div>
                     </div>
                     <div>
                         <p className="text-justify mb-2">
-                            Nachdem du dein Produkt getestet hast, teilst du
-                            deine Meinung auf Amazon indem du eine Rezension
-                            schreibst.
+                            Nachdem du dein Produkt getestet hast, schreibst du
+                            eine Produktrezension auf Amazon in welcher du deine
+                            Meinung teilst.
                         </p>
                         <p className="text-justify mb-2">
-                            Hierbei ist uns wichtig, dass du deine eigene
-                            Meinung und deine Erfahrungen aus dem Test
+                            Hierbei ist uns sehr wichtig, dass du deine eigene
+                            ehrlich Meinung und deine Erfahrungen aus dem Test
                             wiedergibst.
                         </p>
                         <p className="text-justify mb-2">
-                            Ist die Rezension online, musst du uns nur noch den
-                            Link zu dieser schicken, hier erfährst du wie.
+                            Ist deine Rezension Online, musst du uns nur noch
+                            den Link zu dieser schicken. Hier erfährst du wie.
                         </p>
                     </div>
                     <div className="w-6/12 hidden lg:block transform translate-y-10">
@@ -1682,17 +1662,14 @@ function Steps() {
             <div className="lg:max-w-4xl mx-2 mt-16 lg:mt-32 lg:mx-auto">
                 <div className="lg:flex">
                     <div className="lg:w-1/2">
-                        <div className="flex text-yellow-600 lg:mb-6 mb-4 font-medium">
+                        <div className="flex text-yellow-600 lg:mb-6 items-center mb-4 font-medium">
                             <div
                                 style={{ width: '30px' }}
                                 className="border lg:hidden block border-yellow-600 mr-2 lg:mr-4 rounded-full text-center text-lg lg:text-2xl"
                             >
                                 6
                             </div>
-                            <div
-                                style={{ width: '38px' }}
-                                className="border-2 lg:block hidden border-yellow-600 mr-2 lg:mr-4 rounded-full text-center text-lg lg:text-2xl"
-                            >
+                            <div className="border-2 lg:block hidden border-yellow-600  px-2.5 pt-0 pb-0 mr-2 lg:mr-4 rounded-full text-center text-lg lg:text-2xl">
                                 6
                             </div>
                             <h2 className="text-lg lg:text-2xl lg:font-normal">
@@ -1702,12 +1679,14 @@ function Steps() {
                         <div>
                             <p className="text-justify mb-2">
                                 Nachdem du uns deine Rezension zugesendet hast
-                                überweisen wir dir zum Abschluss deine Vergütung
-                                innerhalb von 2-3 Werktagen auf dein PayPal
+                                überweisen wir dir zum Abschluss deine
+                                Erstattung des Produkttestests auf dein PayPal
                                 Konto.
                             </p>
                             <p className="text-justify mb-2">
-                                Die Vergütung beträgt pro Test bis zu 30€.
+                                Der Erstattung beträgt bis zu 30€ pro Test und
+                                wird innerhalb von 2-3 Werktagen auf dein Konto
+                                überwiesen.
                             </p>
                         </div>
                     </div>

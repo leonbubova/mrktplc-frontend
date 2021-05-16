@@ -1,3 +1,5 @@
+import ButtonModal from '../ButtonModal'
+
 function Footer() {
     return (
         <div>
@@ -32,6 +34,7 @@ function Footer() {
                         <div className="lg:flex text-right">
                             <div>Impressum</div>
                             <div className="lg:ml-8">Datenschutz</div>
+                            <ButtonModal />
                         </div>
                     </div>
                 </div>

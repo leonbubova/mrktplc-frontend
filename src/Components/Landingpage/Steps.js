@@ -748,7 +748,7 @@ function Steps() {
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
                     >
-                        <g clipPath="url(#clip0)">
+                        <g clipPath="url(#clip5)">
                             <path
                                 d="M231.264 182.746L233.048 217C233.048 217 157.583 145.175 148.181 124.159C138.78 103.144 156.477 51.1593 156.477 51.1593L195.742 72.7275L231.264 182.746Z"
                                 fill="#9F616A"
@@ -832,7 +832,7 @@ function Steps() {
                             />
                         </g>
                         <defs>
-                            <clipPath id="clip0">
+                            <clipPath id="clip5">
                                 <rect
                                     width="180.359"
                                     height="213"

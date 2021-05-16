@@ -1,7 +1,7 @@
 function Nav() {
     return (
         <div>
-            <div className="relative flex justify-between mx-1 lg:mx-11 mt-7 text-xs">
+            <div className="relative flex justify-between mx-2 lg:mx-11 mt-7 text-xs">
                 <div className="text-2xl lg:3xl text-yellow-600">Logo</div>
                 <div className="flex items-center">
                     <ul className="flex space-x-2 lg:space-x-8 items-center text-yellow-600 text-xs lg:text-base font-medium">

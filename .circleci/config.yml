@@ -38,7 +38,7 @@ workflows:
     version: 2.1
     build-format-lint:
         jobs:
-            - run
+            - run:
                 filters:
                     branches:
                         only:

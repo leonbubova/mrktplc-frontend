@@ -7,6 +7,7 @@
         "@testing-library/jest-dom": "^5.11.10",
         "@testing-library/react": "^11.2.6",
         "@testing-library/user-event": "^12.8.3",
+        "axios": "^0.21.1",
         "eslint-config-prettier": "^8.3.0",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
@@ -17,28 +18,32 @@
     "scripts": {
         "start": "craco start",
         "build": "craco build",
-        "test": "craco test",
         "eject": "react-scripts eject",
+        "test": "react-scripts test",
+        "test:coverage": "npm run test -- --coverage --watchAll=false",
+        "test:ci": "cross-env CI=true react-scripts test --env=jsdom --passWithNoTests",
         "lint": "eslint --ext .js,.jsx .",
         "lint:fix": "eslint --fix --ext .js,.jsx .",
         "format": "npx prettier --check .",
         "format:fix": "npx prettier --write .",
         "fix": "npm run format:fix && npm run lint:fix",
-        "test:related": "jest --bail --findRelatedTests",
         "prepare": "husky install"
     },
     "lint-staged": {
-        "src/**/*.{js,css,html}": [
+        "src/**/*.{js,jsx}": [
             "npm run format:fix",
             "npm run lint:fix"
-        ],
-        "*.{js,jsx}": "eslint --cache --fix",
-        "*.{js,css,md}": "prettier --write"
+        ]
     },
     "eslintConfig": {
         "extends": [
             "react-app",
             "react-app/jest"
+        ]
+    },
+    "jest": {
+        "snapshotSerializers": [
+            "enzyme-to-json/serializer"
         ]
     },
     "browserslist": {
@@ -55,7 +60,11 @@
     },
     "devDependencies": {
         "@tailwindcss/postcss7-compat": "^2.1.0",
+        "@wojtekmaj/enzyme-adapter-react-17": "^0.6.1",
         "autoprefixer": "^9.8.6",
+        "cross-env": "^7.0.3",
+        "enzyme": "^3.11.0",
+        "enzyme-to-json": "^3.6.2",
         "eslint": "^7.26.0",
         "eslint-config-airbnb": "^18.2.1",
         "eslint-plugin-import": "^2.23.1",

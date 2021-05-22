@@ -52,7 +52,7 @@ class Contact extends React.Component {
                     method="POST"
                     className="w-full max-w-md"
                 >
-                    <div className="mb-4">
+                    <div className="mb-5">
                         <label
                             htmlFor="name"
                             className="flex text-xs lg:text-sm text-yellow-600 flex-col"
@@ -68,7 +68,7 @@ class Contact extends React.Component {
                             />
                         </label>
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-5">
                         <label
                             htmlFor="exampleInputEmail1"
                             className="flex text-xs lg:text-sm text-yellow-600 flex-col"

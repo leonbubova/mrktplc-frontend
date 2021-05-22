@@ -2,6 +2,7 @@ import Icons from './Icons'
 import HeroSection from './HeroSection'
 import Steps from './Steps'
 import Footer from './Footer'
+import Contact from './Contact'
 
 function Landingpage() {
     return (
@@ -9,6 +10,7 @@ function Landingpage() {
             <HeroSection />
             <Icons />
             <Steps />
+            <Contact />
             <Footer />
         </div>
     )

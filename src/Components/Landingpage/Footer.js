@@ -37,7 +37,7 @@ function Footer() {
                             </Link>
                         </div>
                         <div className="lg:flex text-right">
-                            <div className="mb-5">
+                            <div className="lg:mb-0 mb-5">
                                 <Link to="/imprint">Impressum</Link>
                             </div>
                             <div className="lg:ml-8">

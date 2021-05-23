@@ -1,7 +1,7 @@
 function Steps() {
     return (
         <div>
-            <div className="lg:max-w-4xl mx-2 mt-16 lg:mt-32 lg:flex lg:mx-auto">
+            <div className="lg:max-w-4xl mx-6 mt-16 lg:mt-32 lg:flex lg:mx-auto">
                 <div className="lg:w-1/2">
                     <div className="flex text-yellow-600 items-center lg:mb-6 mb-4 font-medium">
                         <h2 className="text-lg lg:text-2xl lg:font-normal">
@@ -711,7 +711,7 @@ function Steps() {
                     </svg>
                 </div>
             </div>
-            <div className="lg:max-w-4xl mx-2 mt-16 lg:mt-32 lg:flex lg:mx-auto">
+            <div className="lg:max-w-4xl mx-6 mt-16 lg:mt-32 lg:flex lg:mx-auto">
                 <div className="lg:w-1/2">
                     <div className="flex text-yellow-600 lg:mb-6 items-center mb-4 font-medium">
                         <div
@@ -844,7 +844,7 @@ function Steps() {
                     </svg>
                 </div>
             </div>
-            <div className="lg:max-w-4xl mx-2 mt-16 lg:mt-32 lg:mb-48 relative lg:flex lg:flex-row-reverse lg:mx-auto">
+            <div className="lg:max-w-4xl mx-6 mt-16 lg:mt-32 lg:mb-48 relative lg:flex lg:flex-row-reverse lg:mx-auto">
                 <div className="lg:w-1/2">
                     <div className="flex text-yellow-600 items-center lg:mb-6 mb-4 font-medium">
                         <h2 className="text-lg lg:text-2xl lg:font-normal">
@@ -1181,7 +1181,7 @@ function Steps() {
                     </svg>
                 </div>
             </div>
-            <div className="lg:max-w-4xl mx-2 mt-16 lg:mt-32 lg:flex lg:items-end lg:mx-auto">
+            <div className="lg:max-w-4xl mx-6 mt-16 lg:mt-32 lg:flex lg:items-end lg:mx-auto">
                 <div className="lg:w-1/2">
                     <div className="flex text-yellow-600 items-center lg:mb-6 mb-4 font-medium">
                         <div className="border lg:hidden block px-2.5 pt-0 pb-0.5 border-yellow-600 mr-2 lg:mr-4 rounded-full text-center text-lg lg:text-2xl">
@@ -1297,7 +1297,7 @@ function Steps() {
                     </svg>
                 </div>
             </div>
-            <div className="lg:max-w-4xl mx-2 mt-16 lg:mt-32 lg:mb-44 lg:flex lg:flex-row-reverse lg:mx-auto">
+            <div className="lg:max-w-4xl mx-6 mt-16 lg:mt-32 lg:mb-44 lg:flex lg:flex-row-reverse lg:mx-auto">
                 <div className="lg:w-1/2">
                     <div className="flex text-yellow-600 items-center lg:mb-6 mb-4 font-medium">
                         <h2 className="text-lg lg:text-2xl lg:font-normal">
@@ -1659,7 +1659,7 @@ function Steps() {
                     </svg>
                 </div>
             </div>
-            <div className="lg:max-w-4xl mx-2 mt-16 lg:mt-32 lg:mx-auto">
+            <div className="lg:max-w-4xl mx-6 mt-16 lg:mt-32 lg:mx-auto">
                 <div className="lg:flex">
                     <div className="lg:w-1/2">
                         <div className="flex text-yellow-600 lg:mb-6 items-center mb-4 font-medium">

@@ -31,7 +31,7 @@ function Footer() {
                 </div>
                 <div className="lg:max-w-4xl relative lg:mx-auto mx-6 relative text-white bottom-20">
                     <div className="absolute justify-between items-end flex w-full ">
-                        <div>
+                        <div className="w-24 lg:w-32">
                             <Link to="/">
                                 <LogoWhite />
                             </Link>

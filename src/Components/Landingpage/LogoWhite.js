@@ -4,7 +4,6 @@ function LogoWhite() {
             <svg
                 viewBox="0 0 152 57"
                 fill="none"
-                className="w-32"
                 xmlns="http://www.w3.org/2000/svg"
             >
                 <g clipPath="url(#clip8)">

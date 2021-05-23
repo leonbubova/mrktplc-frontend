@@ -5,7 +5,7 @@ function Imprint() {
     return (
         <div>
             <Nav />
-            <div className="lg:mx-auto lg:max-w-4xl mt-40 mb-56">
+            <div className="lg:mx-auto lg:max-w-4xl mx-6 mt-12 lg:mt-40 lg:mb-56">
                 <div className="">
                     <h1 className="text-lg lg:text-3xl lg:font-normal text-yellow-600 mb-8">
                         Impressum

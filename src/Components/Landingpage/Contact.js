@@ -46,7 +46,7 @@ class Contact extends React.Component {
     render() {
         return (
             <div>
-                <div className="lg:max-w-4xl mx-2 mt-16 lg:mt-32 flex justify-center lg:mx-auto ">
+                <div className="lg:max-w-4xl mx-6 mt-16 lg:mt-32 flex justify-center lg:mx-auto ">
                     <svg
                         viewBox="0 0 356 309"
                         fill="none"
@@ -147,7 +147,7 @@ class Contact extends React.Component {
                         </defs>
                     </svg>
                 </div>
-                <div className="lg:max-w-4xl mx-2 mt-16 lg:mt-32 flex justify-center lg:mx-auto ">
+                <div className="lg:max-w-4xl mx-6 mt-16 lg:mt-32 flex justify-center lg:mx-auto ">
                     <form
                         id="contact-form"
                         onSubmit={this.handleSubmit.bind(this)}

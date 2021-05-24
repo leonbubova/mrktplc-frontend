@@ -1,5 +1,6 @@
 import Nav from './Nav'
 import Footer from './Footer'
+import ButtonModal from '../ButtonModal'
 
 function About() {
     return (
@@ -40,6 +41,7 @@ function About() {
                         Aus diesem Grund fokussieren sich viele Hersteller auf
                         das erhalten von Rezensionen durch Produkttests.
                     </p>
+                    <ButtonModal />
                     <p className="text-justify mb-6">
                         Aber durch die Rezensionen profitieren nicht nur die
                         Hersteller auf Amazon, eBay & Co., sondern auch

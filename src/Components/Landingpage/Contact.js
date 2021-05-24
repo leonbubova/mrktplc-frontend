@@ -19,9 +19,11 @@ class Contact extends React.Component {
             data: this.state,
         }).then((response) => {
             if (response.data.status === 'success') {
+                // eslint-disable-next-line no-alert
                 alert('Message Sent.')
                 this.resetForm()
             } else if (response.data.status === 'fail') {
+                // eslint-disable-next-line no-alert
                 alert('Message failed to send.')
             }
         })

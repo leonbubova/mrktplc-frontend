@@ -1,4 +1,5 @@
-import ButtonModal from '../ButtonModal'
+import { Link } from 'react-router-dom'
+import LogoWhite from './LogoWhite'
 
 function Footer() {
     return (
@@ -28,13 +29,20 @@ function Footer() {
                         />
                     </svg>
                 </div>
-                <div className="lg:max-w-4xl relative lg:mx-auto mx-2 relative text-white bottom-16">
+                <div className="lg:max-w-4xl relative lg:mx-auto mx-6 relative text-white bottom-20">
                     <div className="absolute justify-between items-end flex w-full ">
-                        <div>Logo</div>
+                        <div className="w-24 lg:w-32">
+                            <Link to="/">
+                                <LogoWhite />
+                            </Link>
+                        </div>
                         <div className="lg:flex text-right">
-                            <div>Impressum</div>
-                            <div className="lg:ml-8">Datenschutz</div>
-                            <ButtonModal />
+                            <div className="lg:mb-0 mb-5">
+                                <Link to="/imprint">Impressum</Link>
+                            </div>
+                            <div className="lg:ml-8">
+                                <Link to="/privacy">Datenschutz</Link>
+                            </div>
                         </div>
                     </div>
                 </div>

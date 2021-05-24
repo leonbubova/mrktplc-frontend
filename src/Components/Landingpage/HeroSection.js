@@ -13,7 +13,7 @@ function HeroSection() {
                     <div
                         id="hero-text"
                         style={{}}
-                        className="mx-2 lg:mx-11 mb-40 lg:mb-0"
+                        className="mx-6 lg:mx-11 mb-40 lg:mb-0"
                     >
                         <div className="text-yellow-600 text-lg lg:text-3xl font-medium">
                             werde noch heute ein exklusiver
